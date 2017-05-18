@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>006</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="OwlCarousel2-2.2.1\dist\assets\owl.carousel.min.css">
+    <link rel="stylesheet" href="OwlCarousel2-2.2.1\dist\assets\owl.theme.default.min.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="row form-bottom-border">
+            <div class="col-md-6 text-left">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Search for..." >
+                    <span class="input-group-btn">
+        <button class="btn btn-secondary search-button" type="button"><i class="glyphicon glyphicon-search"></i></button>
+      </span>
+                </div>
+            </div>
+            <div class="col-md-6 text-right">
+                <ul class="list-inline">
+                    <li><button class="btn btn-default btn-menu">My Account</button></li>
+                    <li><button class="btn btn-default btn-menu">Your Cart</button></li>
+                    <li><button class="btn btn-default btn-menu">Checkout</button></li>
+                    <li><button class="btn btn-default" id="lastbutton">Login</button></li>
+                </ul>
+            </div>
+        </div>
+
+        <nav class="navbar navbar-default navbar-custom">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#"><img class="logo" src="images\2017-04-18.png"></a>
+                </div>
+                <ul class="nav navbar-nav pull-right">
+                    <li><a href="#">WOMEN</a></li>
+                    <li><a href="#">MAN</a></li>
+                    <li><a href="#">SPORT</a></li>
+                    <li><a href="#">HANDBAG</a></li>
+                    <li><a href="#">BEST SELLER</a></li>
+                    <li><a href="#">TOP SELLER</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div id="bootstrap-touch-slider" class="carousel bs-slider fade  control-round indicators-line" data-ride="carousel" data-pause="hover"
+            data-interval="false">
+
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#bootstrap-touch-slider" data-slide-to="0" class="active"></li>
+                <li data-target="#bootstrap-touch-slider" data-slide-to="1"></li>
+                <li data-target="#bootstrap-touch-slider" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Wrapper For Slides -->
+            <div class="carousel-inner" role="listbox">
+
+                <!-- Third Slide -->
+                <div class="item active">
+
+                    <!-- Slide Background -->
+                    <img src="https://images.pexels.com/photos/48726/pexels-photo-48726.jpeg?w=940&h=650&auto=compress&cs=tinysrgb" alt="Bootstrap Touch Slider"
+                        class="slide-image" />
+                    <div class="bs-slider-overlay"></div>
+
+                    <div class="container">
+                        <div class="row">
+                            <!-- Slide Text Layer -->
+                            <div class="slide-text slide_style_left">
+                                <h1 class=" black-background" data-animation="animated zoomInRight">SEARCH ENGINE FRIENDLY</h1>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End of Slide -->
+
+                <!-- Second Slide -->
+                <div class="item">
+
+                    <!-- Slide Background -->
+                    <img src="https://images.pexels.com/photos/207990/pexels-photo-207990.jpeg?w=940&h=650&auto=compress&cs=tinysrgb" alt="Bootstrap Touch Slider"
+                        class="slide-image" />
+                    <div class="bs-slider-overlay"></div>
+                    <!-- Slide Text Layer -->
+                    <div class="slide-text slide_style_center">
+                        <h1 data-animation="animated flipInX">Bootstrap touch slider</h1>
+                        <p data-animation="animated lightSpeedIn">Make Bootstrap Better together.</p>
+                        <a href="http://bootstrapthemes.co/" target="_blank" class="btn btn-default" data-animation="animated fadeInUp">select one</a>
+                        <a href="http://bootstrapthemes.co/" target="_blank" class="btn btn-primary" data-animation="animated fadeInDown">select two</a>
+                    </div>
+                </div>
+                <!-- End of Slide -->
+
+                <!-- Third Slide -->
+                <div class="item">
+
+                    <!-- Slide Background -->
+                    <img src="https://images.pexels.com/photos/144345/pexels-photo-144345.jpeg?w=940&h=650&auto=compress&cs=tinysrgb" alt="Bootstrap Touch Slider"
+                        class="slide-image" />
+                    <div class="bs-slider-overlay"></div>
+                    <!-- Slide Text Layer -->
+                    <div class="slide-text slide_style_right">
+                        <h1 data-animation="animated zoomInLeft">Beautiful Animations</h1>
+                        <p data-animation="animated fadeInRight">Lots of css3 Animations to make slide beautiful .</p>
+                        <a href="http://bootstrapthemes.co/" target="_blank" class="btn btn-default" data-animation="animated fadeInLeft">select one</a>
+                        <a href="http://bootstrapthemes.co/" target="_blank" class="btn btn-primary" data-animation="animated fadeInRight">select two</a>
+                    </div>
+                </div>
+                <!-- End of Slide -->
+
+
+            </div>
+            <!-- End of Wrapper For Slides -->
+
+            <!-- Left Control -->
+            <a class="left carousel-control" href="#bootstrap-touch-slider" role="button" data-slide="prev">
+                <span class="fa fa-angle-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+
+            <!-- Right Control -->
+            <a class="right carousel-control" href="#bootstrap-touch-slider" role="button" data-slide="next">
+                <span class="fa fa-angle-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+
+        </div>
+
+
+        <div class="saleshop-text">
+            <strong>SALE SHOP </strong> template is designed feature rich, easy to use, search engine friendly
+            <br> and with a visually appealing interface.
+        </div>
+
+
+        <h3>FEATURED PRODUCTS</h3>
+        <div class="owl-carousel">
+            <div class="img-owl-carousel text-center"><img class="img-owl-carousel" src="http://www.portraitpainting.com/images/how-big/20x30.jpg">
+                <h5><strong>YOU THINK FAST</strong></h5>
+                <h6> World Once</h6>
+                <p class="price"> $ 26.60</p>
+
+            </div>
+             <div class="img-owl-carousel text-center"><img class="img-owl-carousel" src="http://www.portraitpainting.com/images/how-big/20x30.jpg">
+                <h5><strong>YOU THINK FAST</strong></h5>
+                <h6> World Once</h6>
+                <p class="price"> $ 26.60</p>
+
+            </div>
+             <div class="img-owl-carousel text-center"><img class="img-owl-carousel" src="http://www.portraitpainting.com/images/how-big/20x30.jpg">
+                <h5><strong>YOU THINK FAST</strong></h5>
+                <h6> World Once</h6>
+                <p class="price"> $ 26.60</p>
+
+            </div>
+             <div class="img-owl-carousel text-center"><img class="img-owl-carousel" src="http://www.portraitpainting.com/images/how-big/20x30.jpg">
+                <h5><strong>YOU THINK FAST</strong></h5>
+                <h6> World Once</h6>
+                <p class="price"> $ 26.60</p>
+
+            </div>
+             <div class="img-owl-carousel text-center"><img class="img-owl-carousel" src="http://www.portraitpainting.com/images/how-big/20x30.jpg">
+                <h5><strong>YOU THINK FAST</strong></h5>
+                <h6> World Once</h6>
+                <p class="price"> $ 26.60</p>
+
+            </div>
+             <div class="img-owl-carousel text-center"><img class="img-owl-carousel" src="http://www.portraitpainting.com/images/how-big/20x30.jpg">
+                <h5><strong>YOU THINK FAST</strong></h5>
+                <h6> World Once</h6>
+                <p class="price"> $ 26.60</p>
+
+            </div>
+             <div class="img-owl-carousel text-center"><img class="img-owl-carousel" src="http://www.portraitpainting.com/images/how-big/20x30.jpg">
+                <h5><strong>YOU THINK FAST</strong></h5>
+                <h6> World Once</h6>
+                <p class="price"> $ 26.60</p>
+
+            </div>
+             <div class="img-owl-carousel text-center"><img class="img-owl-carousel" src="http://www.portraitpainting.com/images/how-big/20x30.jpg">
+                <h5><strong>YOU THINK FAST</strong></h5>
+                <h6> World Once</h6>
+                <p class="price"> $ 26.60</p>
+
+            </div>
+
+        </div>
+        <br>
+        <br>
+        <br>
+
+        <h3>LATEST PRODUCTS</h3>
+       <div class="owl-carousel">
+            <div class="img-owl-carousel text-center"><img class="img-owl-carousel" src="http://www.portraitpainting.com/images/how-big/20x30.jpg">
+                <h5><strong>YOU THINK FAST</strong></h5>
+                <h6> World Once</h6>
+                <p class="price"> $ 26.60</p>
+
+            </div>
+             <div class="img-owl-carousel text-center"><img class="img-owl-carousel" src="http://www.portraitpainting.com/images/how-big/20x30.jpg">
+                <h5><strong>YOU THINK FAST</strong></h5>
+                <h6> World Once</h6>
+                <p class="price"> $ 26.60</p>
+
+            </div>
+             <div class="img-owl-carousel text-center"><img class="img-owl-carousel" src="http://www.portraitpainting.com/images/how-big/20x30.jpg">
+                <h5><strong>YOU THINK FAST</strong></h5>
+                <h6> World Once</h6>
+                <p class="price"> $ 26.60</p>
+
+            </div>
+             <div class="img-owl-carousel text-center"><img class="img-owl-carousel" src="http://www.portraitpainting.com/images/how-big/20x30.jpg">
+                <h5><strong>YOU THINK FAST</strong></h5>
+                <h6> World Once</h6>
+                <p class="price"> $ 26.60</p>
+
+            </div>
+             <div class="img-owl-carousel text-center"><img class="img-owl-carousel" src="http://www.portraitpainting.com/images/how-big/20x30.jpg">
+                <h5><strong>YOU THINK FAST</strong></h5>
+                <h6> World Once</h6>
+                <p class="price"> $ 26.60</p>
+
+            </div>
+             <div class="img-owl-carousel text-center"><img class="img-owl-carousel" src="http://www.portraitpainting.com/images/how-big/20x30.jpg">
+                <h5><strong>YOU THINK FAST</strong></h5>
+                <h6> World Once</h6>
+                <p class="price"> $ 26.60</p>
+
+            </div>
+             <div class="img-owl-carousel text-center"><img class="img-owl-carousel" src="http://www.portraitpainting.com/images/how-big/20x30.jpg">
+                <h5><strong>YOU THINK FAST</strong></h5>
+                <h6> World Once</h6>
+                <p class="price"> $ 26.60</p>
+
+            </div>
+             <div class="img-owl-carousel text-center"><img class="img-owl-carousel" src="http://www.portraitpainting.com/images/how-big/20x30.jpg">
+                <h5><strong>YOU THINK FAST</strong></h5>
+                <h6> World Once</h6>
+                <p class="price"> $ 26.60</p>
+
+            </div>
+            
+        </div>
+        <br>
+
+
+
+
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="featuresicon1">
+                    <span class="glyphicon glyphicon-time glyphicon-size "></span>
+                </div>
+                <div class="coded-Patience">
+                    <h4>Coded with Patience
+                        <h4>
+                            <p>Lorem ipsum dolor sit amet, consect etur adipisicing elit, sed do eiusmod t empor incididunt
+                                ut labore et dolore magna aliqua.</p>
+                </div>
+
+
+            </div>
+
+            <div class="col-sm-4">
+
+                <div class="featuresicon1">
+                    <span class="glyphicon glyphicon-phone glyphicon-size"></span>
+                </div>
+                <div class="coded-Patience">
+                    <h4>Fully responsive
+                        <h4>
+                            <p>Lorem ipsum dolor sit amet, consect etur adipisicing elit, sed do eiusmod t empor incididunt
+                                ut labore et dolore magna aliqua.</p>
+                </div>
+            </div>
+
+            <div class="col-sm-4">
+                <div class="featuresicon1">
+                    <span class="glyphicon glyphicon-camera glyphicon-size"></span>
+                </div>
+                <div class="coded-Patience">
+                    <h4>Modern Flat Design
+                        <h4>
+                            <p>Lorem ipsum dolor sit amet, consect etur adipisicing elit, sed do eiusmod t empor incididunt
+                                ut labore et dolore magna aliqua.</p>
+                </div>
+
+            </div>
+        </div>
+
+
+
+        <h4 class="ourclients">Manufacturer</h4>
+        <div class="row">
+            <div class="col-sm-3 text-center">
+                <img class="brandlogo" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=350%C3%97150&w=350&h=150">
+            </div>
+            <div class="col-sm-3 text-center">
+                <img class="brandlogo" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=350%C3%97150&w=350&h=150">
+            </div>
+            <div class="col-sm-3 text-center">
+                <img class="brandlogo" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=350%C3%97150&w=350&h=150">
+            </div>
+            <div class="col-sm-3 text-center">
+                <img class="brandlogo" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=350%C3%97150&w=350&h=150">
+            </div>
+        </div>
+
+
+        <section class="footer-1">
+            <div class="row">
+                <div class="col-md-3">
+                    <h4>Navigation</h4>
+                    <ul class="nav-list">
+                        <li>Homepage</li>
+                        <li>Sample Pages</li>
+                        <li>Portfolio</li>
+                        <li>Blog</li>
+                        <li>Contact Us</li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h4>My Account</h4>
+                    <ul class="nav-list">
+                        <li>My Account</li>
+                        <li>Order history</li>
+                        <li>Wishlist</li>
+                        <li>Newsletter</li>
+                    </ul>
+                </div>
+                <div class="col-md-5">
+                    <p class="logo"><img src="images\2017-04-18.png" alt="logo-red"></p>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. the Lorem Ipsum has been the
+                        industry's standard dummy text ever since the you.</p>
+                    <br/>
+                    <span>
+          <a href="#" class="facebook social-logo">face</a>
+          <a href="#" class="twitter social-logo">tweet</a>
+          <a href="#" class="skype social-logo">skpe</a>
+          <a href="#" class="vimeo social-logo">vimep</a>
+        </span>
+                </div>
+            </div>
+        </section>
+
+
+
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="jquery.min.js"></script>
+    <script src="js\custom.js"></script>
+
+    <script src="OwlCarousel2-2.2.1\dist\owl.carousel.min.js"></script>
+
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $(".owl-carousel").owlCarousel();
+        });
+    </script>
+
+</body>
+
+</html>
